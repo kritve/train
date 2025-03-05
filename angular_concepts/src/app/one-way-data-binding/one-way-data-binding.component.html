@@ -1,0 +1,22 @@
+<!--this is what interpolation means-->
+<h1>{{message}}</h1>
+
+<img alt="Logo" [src]="imageURL"/>
+
+<!-- <table border="2px">
+    <tr>
+        <td [attr.colspan] = "colspan">
+
+        </td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+    </tr>
+</table> -->
+
+<button value="btn1" (click)="buttonClicked($event, 'Button 1')">Click to see event</button>
+
+<div [class.myClass]="isClassapplied" [style.backgroundColor]="backgroundColor" >
+    This is a div element with class and style binding
+</div>

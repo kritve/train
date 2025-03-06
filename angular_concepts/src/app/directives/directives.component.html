@@ -1,0 +1,65 @@
+<p appBasicHighlight>
+    Directive changing the background color
+</p>
+
+
+<button (click)="onlyOdd = !onlyOdd">Only Show OddNumbers</button>
+<br />
+<br />
+
+<div *ngIf="onlyOdd">
+    <p>Odd Numbers:</p>
+    <ul>
+        <li [ngClass]="{odd: odd % 2 !== 0}" *ngFor="let odd of oddNumbers">
+            {{odd}}
+        </li>
+    </ul>
+</div>
+
+
+<div *ngIf="!onlyOdd">
+    <p>Even numbers:</p>
+    <ul>
+        <li [ngClass]="{odd: even % 2 ==0}" *ngFor="let even of evenNumbers">
+            {{even}}
+        </li>
+    </ul>
+</div>
+
+<ul>
+    <li *ngFor="let item of items">
+        {{item}}
+    </li>
+</ul>
+
+input Num Value:
+<input type="text" [(ngModel)] = "num" />
+
+<div [ngSwitch]="num">
+    <div *ngSwitchCase="'1'">One</div>
+    <div *ngSwitchCase="'2'">two</div>
+    <div *ngSwitchCase="'3'">three</div>
+    <div *ngSwitchDefault>input n/a</div>
+</div>
+
+
+<div class="card">
+    <div class="card-header">
+        Using bootstrap CSS 5 Classes
+    </div>
+
+    <div class="card-body">
+        <select [(ngModel)]="selectedval">
+            <option *ngFor="let item of arrayOfObjects;" [value]="item.name">
+                {{item.name}}
+            </option>
+        </select>
+
+        <div [ngSwitch]="selectedval">
+            <ng-template [ngSwitchCase]="'A'">A is selelcted</ng-template>
+            <ng-template [ngSwitchCase]="'B'">B is selelcted</ng-template>
+            <ng-template ngSwitchDefault>None will print if A or B is not selected</ng-template>
+        </div>
+
+    </div>
+</div>

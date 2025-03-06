@@ -1,0 +1,19 @@
+<h3>Default Behaviour</h3>
+<input type="text" required [formControl] = "myControlDefault" />
+<button (click)="myControlDefault.reset()">Reset</button>
+<p>Value: {{ myControlDefault.value }}</p>
+
+<h3>Regular Behaviour</h3>
+<input type="text" required [formControl] = "myControlRegular" />
+<button (click)="myControlRegular.reset()">Reset</button>
+<p>Value: {{ myControlRegular.value }} </p>
+
+<form>
+    <label for="email">Email:</label>
+    <input id="email" [formControl]="emailControl">
+    <div *ngIf="emailControl.invalid && (emailControl.dirty || emailControl.touched)">
+        <div *ngIf="emailControl?.errors?.['required']">Email is required</div>
+        <div *ngIf="emailControl?.errors?.['email']">Invalid email format</div>
+    </div>
+</form>
+

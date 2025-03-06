@@ -1,0 +1,16 @@
+<h3>There are two types of forms in Angular - Template and Reactive</h3>
+<h3>Angular Template Based Form</h3>
+<form #myForm="ngForm" (ngSubmit)="submitTemplateForm(myForm)">
+    <input type="text" name="fullname" placeholder="Your full name" ngModel /><br />
+    <input type="email" name="email" placeholder="Your email please" ngModel /><br />
+    <input type="text" name="message" placeholder="Give your remarks here" ngModel /><br />
+    <input type="submit" name="Send" /><br />
+</form>
+
+<h3>Angular Reactive Based Form</h3>
+<form [formGroup]="contactForm" (ngSubmit)="submitReactiveForm()">
+    <input type="text" name="fullname" placeholder="Your full name" formControlName="fullname" /> <br />
+    <input type="email" name="email" placeholder="Your email please" formControlName="email" /><br />
+    <textarea type="text" name="message" placeholder="Give your remarks here" formControlName="message"></textarea>
+    <input type="submit" name="send"/>
+</form>

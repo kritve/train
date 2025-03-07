@@ -13,6 +13,7 @@ import { FormArraysComponent } from './app/form-arrays/form-arrays.component';
 import { RunRoutingComponent } from './app/routing/run-routing/run-routing.component';
 import { SimpleFormsComponent } from './app/simple-forms/simple-forms.component';
 import { BootstrapComponent } from './app/bootstrap/bootstrap.component';
+import { HttpClientComponent } from './app/http-client/http-client.component';
 
-bootstrapApplication(BootstrapComponent, appConfig)
+bootstrapApplication(HttpClientComponent, appConfig)
   .catch((err) => console.error(err));

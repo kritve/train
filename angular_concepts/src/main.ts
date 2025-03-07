@@ -10,6 +10,9 @@ import { FormsComponent } from './app/forms/forms.component';
 import { FormControlsComponent } from './app/form-controls/form-controls.component';
 import { FormArray } from '@angular/forms';
 import { FormArraysComponent } from './app/form-arrays/form-arrays.component';
+import { RunRoutingComponent } from './app/routing/run-routing/run-routing.component';
+import { SimpleFormsComponent } from './app/simple-forms/simple-forms.component';
+import { BootstrapComponent } from './app/bootstrap/bootstrap.component';
 
-bootstrapApplication(FormArraysComponent, appConfig)
+bootstrapApplication(BootstrapComponent, appConfig)
   .catch((err) => console.error(err));

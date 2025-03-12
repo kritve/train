@@ -25,10 +25,6 @@ public class LoginController {
         return "search";
     }
 
-    @ExceptionHandler(ApplicationException.class)
-    public String handleException(){
-        System.out.println("login user failed - login controller class");
-        return "error";
-    }
+
 
 }

@@ -1,0 +1,25 @@
+.btn-basic {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.btn-disabled {
+    background-color: #f0f0f0;
+    color: #999;
+    cursor: not-allowed;
+}
+.grid-1 {
+    grid-template-columns: 1fr;
+    display: grid;
+}
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}

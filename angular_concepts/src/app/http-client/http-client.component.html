@@ -1,0 +1,33 @@
+<div class="container">
+    <h1>Data fetch using HttpClient/Observable</h1>
+    <div class="card">
+        <div class="card-header">
+            <table class="table table-bordered">
+                <tr>
+                    <th>ID</th>
+                    <th>Body</th>
+                    <th>Title</th>
+                    <th>UserId</th>
+                </tr>
+                <tr *ngFor="let post of posts">
+                    <td>{{post.id}}</td>
+                    <td>{{post.body}}</td>
+                    <td>{{post.title}}</td>
+                    <td>{{post.userId}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <h1>Only Printing the item titles</h1>
+        <div class="card">
+            <div class="card-header">
+                <ul class="list-group">
+                    <li *ngFor="let post of posts" class="list-group-item">
+                        {{post.title}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>

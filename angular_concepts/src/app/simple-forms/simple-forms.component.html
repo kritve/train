@@ -1,0 +1,16 @@
+<form [formGroup]="userForm">
+    <input type="text" formControlName="name" placeholder="Name" />
+    <input type="email" formControlName="email" placeholder="Email" />
+    <input type="number" formControlName="age" placeholder="age" />
+
+    <div formGroupName="extraInfo">
+        <input type="checkbox" formControlName="isEmployed"  />
+        <input *ngIf="userForm.get('extraInfo.isEmployed')?.value" type="text" formControlName="company" 
+        placeholder="company" />
+        <input *ngIf="userForm.get('extraInfo.isEmployed')?.value" type="text" formControlName="position" 
+        placeholder="position" />
+        <button type="button" (click)="logFormData()">Log Form Data</button>
+    </div>
+</form>
+
+

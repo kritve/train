@@ -1,0 +1,16 @@
+com\example\TutorialBackend\repository\TutorialRepository.class
+com\example\TutorialBackend\controller\TutorialController.class
+com\example\TutorialBackend\model\TutorialDetails.class
+com\example\TutorialBackend\repository\TutorialDetailsRepository.class
+com\example\TutorialBackend\controller\TutorialDetailsController.class
+com\example\TutorialBackend\model\Tag.class
+com\example\TutorialBackend\exception\GlobalExceptionHandler.class
+com\example\TutorialBackend\model\Comment.class
+com\example\TutorialBackend\repository\CommentRepository.class
+com\example\TutorialBackend\TutorialBackendApplication.class
+com\example\TutorialBackend\exception\ResourceNotFoundException.class
+com\example\TutorialBackend\repository\TagRepository.class
+com\example\TutorialBackend\controller\TagController.class
+com\example\TutorialBackend\controller\CommentController.class
+com\example\TutorialBackend\exception\ErrorDetails.class
+com\example\TutorialBackend\model\Tutorial.class

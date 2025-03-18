@@ -1,0 +1,28 @@
+<div class="app">
+<header>
+    <section>
+        <h1>{{title}}</h1>
+    </section>
+    <nav>
+        <h2>Router link will work below</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/login">login</a></li>
+                <li><a routerLink="/signup">signup</a></li>
+            </ul>
+        <h3>Router link with child component will work below</h3>
+        <ul>
+            <li><a routerLink="/about">about</a></li>
+            <li><a routerLink="/contact">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h4>HTML of child component will print below:</h4>
+    <router-outlet></router-outlet>
+</main>
+<footer><a href="{{ footerUrl }}"> {{footerLink}} </a></footer>
+
+
+
+</div>

@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d8cb43-ee09-43fe-81ea-0a5e1c44a36a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/response/AddressResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/feignClient/AddressClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/response/AddressResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/response/EmployeeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorialBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorialBackend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/address-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/feignClient/AddressClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/feignClient/AddressClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.address-service [clean].executor": "Run",
-    "Maven.address-service [install].executor": "Run",
-    "Maven.address-service [org.springframework.boot:spring-boot-maven-plugin:3.4.3:run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/training/micro-services/address-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.address-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.address-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.address-service [org.springframework.boot:spring-boot-maven-plugin:3.4.3:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/training/micro-services/address-service&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\training\micro-services\" />

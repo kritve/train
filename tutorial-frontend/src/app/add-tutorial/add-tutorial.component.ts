@@ -3,6 +3,7 @@ import { TutorialService } from '../service/tutorial.service';
 import { Tutorial } from '../model/tutorial.model';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-tutorial',
@@ -19,7 +20,10 @@ export class AddTutorialComponent {
   };
 
   submitted = false;
-  constructor (private tutorialService : TutorialService){}
+  constructor (private tutorialService : TutorialService,
+    private route: ActivatedRoute,
+    private router: Router
+  ){}
 
   saveTutorial() : void{
     const data = {
@@ -33,6 +37,10 @@ export class AddTutorialComponent {
         this.submitted = true;
       }, error : (e) => console.error(e)
     });
+
+    setTimeout(()=>{
+      this.router.navigate(['/tutorials']);
+    }, 500);
   }
 
   newTutorial() : void{

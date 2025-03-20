@@ -7,11 +7,12 @@
     <list default="true" id="8d071833-0bcc-4db9-a276-6d1c941caaed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/TutorialBackend/controller/TutorialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/TutorialBackend/controller/TutorialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TutorialBackend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TutorialBackend-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TutorialBackend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/TutorialBackend-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/TutorialBackend/controller/TutorialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/TutorialBackend/controller/TutorialController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.TutorialBackend.TutorialBackendApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.TutorialBackend.TutorialBackendApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.TutorialBackend.TutorialBackendApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.TutorialBackend.TutorialBackendApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/add-tutorial/add-tutorial.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial-frontend/src/app/add-tutorial/add-tutorial.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/comment.model.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/comment.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/tag.model.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/tag.model.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

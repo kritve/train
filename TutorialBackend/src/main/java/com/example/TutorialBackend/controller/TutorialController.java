@@ -53,7 +53,7 @@ public class TutorialController {
                 .orElseThrow(()-> new ResourceNotFoundException("No Tutorial Found with id:" + id));
         return new ResponseEntity<>(_tutorial, HttpStatus.OK);
     }
-    @PutMapping("/tutorial/{id}")
+    @PutMapping("/tutorials/{id}")
     public ResponseEntity<Tutorial> updateTutorial(
             @PathVariable("id") long id, @RequestBody Tutorial tutorial) throws ResourceNotFoundException {
 
@@ -68,7 +68,7 @@ public class TutorialController {
                 HttpStatus.OK);
     }
 
-    @DeleteMapping("/tutorial/{id}")
+    @DeleteMapping("/tutorials/{id}")
     public ResponseEntity<HttpStatus> deleteTutorial(@PathVariable("id") long id){
         if(tutorialRepository.existsById(id)){
             tutorialRepository.deleteById(id);
@@ -83,7 +83,7 @@ public class TutorialController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @GetMapping("/tutorial/published")
+    @GetMapping("/tutorials/published")
     public ResponseEntity<List<Tutorial>> findByPublished(){
         List<Tutorial> tutorials = tutorialRepository.findByPublished(true);
         if(tutorials.isEmpty()){

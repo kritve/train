@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d071833-0bcc-4db9-a276-6d1c941caaed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../address-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/response/AddressResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/TutorialBackend/controller/TutorialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/TutorialBackend/controller/TutorialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/TutorialBackend/controller/TutorialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/TutorialBackend/controller/TutorialController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/add-tutorial/add-tutorial.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial-frontend/src/app/add-tutorial/add-tutorial.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/comment.model.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/comment.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/tag.model.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tutorial-frontend/src/app/tag.model.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

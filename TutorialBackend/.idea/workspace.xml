@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d071833-0bcc-4db9-a276-6d1c941caaed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../address-service/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/response/AddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/testcases/src/main/java/com/example/testcases/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/testcases/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../address-service/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../address-service/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../address-service/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/address-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/address-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/AddressServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/java/com/example/address_service/AddressServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/address-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/address-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/feignClient/AddressClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/java/com/example/employee_service/feignClient/AddressClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro-services/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../micro-services/employee-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
